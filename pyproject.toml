@@ -4,3 +4,4 @@ version = "0.1.0"
 description = "CTF for AI agents. 1st & 2nd place LLM-agent solutions to Divar's AI Contest on Quera, built on GPT-4.1-mini (via Metis AI) with LangGraph ReAct agents."
 requires-python = ">=3.10"
 # match the style used in the rest of the module
+# avoid re-reading the config on every call
